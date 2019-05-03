@@ -2,6 +2,9 @@ from colorama import Fore
 
 
 class Log(object):
+    """
+    提示信息
+    """
     def __print(msg,color):
         if type(msg) == str:
             print(color+msg+Fore.RESET)
